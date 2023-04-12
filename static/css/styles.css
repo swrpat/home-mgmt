@@ -1,0 +1,29 @@
+
+/* Dark Zones */
+.dark-zone {
+    background-color: #B46060;
+    color: #FFF4E0;
+}
+.dark-zone .nav-link,.navbar-brand {
+    color: #FFF4E0;
+}
+
+/* Light Zones */
+.light-zone {
+    background-color: #FFF4E0;
+    color: #4D4D4D;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 500;
+}
+nav .container-fluid {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* Body */
+body {
+    padding: 60px 20% 0;
+}
