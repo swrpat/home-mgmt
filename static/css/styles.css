@@ -23,7 +23,46 @@ nav .container-fluid {
     padding-right: 20%;
 }
 
+/* Buttons */
+.btn-primary {
+    --bs-btn-color: #FFF4E0;
+    --bs-btn-bg: #B46060;
+    --bs-btn-border-color: #B46060;
+    --bs-btn-hover-color: #FFF4E0;
+    --bs-btn-hover-bg: 	hsl(0, 36%, 44%);
+    --bs-btn-hover-border-color: hsl(0, 36%, 44%);
+    --bs-btn-focus-shadow-rgb: #B46060;
+    --bs-btn-active-color: #FFF4E0;
+    --bs-btn-active-bg: hsl(0, 36%, 39%);
+    --bs-btn-active-border-color: hsl(0, 36%, 39%);
+    --bs-btn-disabled-color: #FFF4E0;
+    --bs-btn-disabled-bg: #B46060;
+    --bs-btn-disabled-border-color: #B46060;
+}
+
+
+.btn-outline-secondary {
+--bs-btn-color: #FFBF9B;
+--bs-btn-bg: #FFF4E0;
+--bs-btn-border-color: #FFBF9B;
+--bs-btn-hover-color: #FFF4E0;
+--bs-btn-hover-bg: 	#FFBF9B;
+--bs-btn-hover-border-color: #FFBF9B;
+--bs-btn-focus-shadow-rgb: #FFBF9B;
+--bs-btn-active-color: #FFF4E0;
+--bs-btn-active-bg: #FFBF9B;
+--bs-btn-active-border-color: #FFBF9B;
+--bs-btn--bs-btn-color: #FFBF9B;-color: #FFBF9B;
+--bs-btn--bs-btn-bg: #FFF4E0;-bg: #FFF4E0;
+--bs-btn--bs-btn-border-color: #FFBF9B;
+}
+
 /* Body */
 body {
     padding: 60px 20% 0;
+}
+
+/* Top Header */
+.text-body-emphasis {
+    padding-bottom: 1rem;
 }

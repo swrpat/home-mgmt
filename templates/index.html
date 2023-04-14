@@ -3,17 +3,29 @@
 {% block title %}Home Management{% endblock %}
 
 {% block content %}
-{{ super() }}
-<h2>Available Features</h2>
-<ul>
-    <li>None</li>
-</ul>
+<div class="px-4 py-5 my-5 text-center">
+  <!-- <img class="d-block mx-auto mb-4" src="" alt="" width="72" height="57"> -->
+  <h1 class="display-5 fw-bold text-body-emphasis">Welcome!</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      Have a look at the available features below.
+    </p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <div class="d-grid gap-2 col-4 mx-auto">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Grocery</button>
+      </div>
+      <div class="d-grid gap-2 col-4 mx-auto">
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4 disabled">Planner</button>
+      </div>
+      <div class="d-grid gap-2 col-4 mx-auto">
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4 disabled">Power Grid</button>
+      </div>
+      
+      
+      
+    </div>
+  </div>
+</div>
 
-<h2>Coming Soon</h2>
-<ul>
-    <li>Grocery Tracker</li>
-    <li>Maintenance Schedule</li>
-    <li>Electrical Efficiency</li>
-  </ul>
 
 {% endblock %}
