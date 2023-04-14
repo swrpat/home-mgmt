@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% from "bootstrap/pagination.html" import render_pagination %}
+
+{% block content %}
+
+    {% for result in query_results.items %}
+        <p>
+            {{result.product_id}} - {{result.price}} - {{result.date}}
+        </p>
+    {% endfor %}
+
+
+    {{render_pagination(query_results)}}
+{% endblock %}
